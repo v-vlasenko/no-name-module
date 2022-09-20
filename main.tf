@@ -1,4 +1,4 @@
-resource "random_pet" {
+resource "pet" {
   count = 10
   keepers = {
     # Generate a new pet name each time
