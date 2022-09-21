@@ -1,5 +1,11 @@
-provider {
-  region = "region"
+data {
+  most_recent = true
+
+  owners = ["self"]
+  tags = {
+    Name   = "app-server"
+    Tested = "true"
+  }
 }
 
 resource "random_pet" "pet" {
