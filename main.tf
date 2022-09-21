@@ -25,5 +25,5 @@ output "pet_keeper" {
 }
 
 variable "niiice" {
-  defaul = "nice"
+  default = "nice"
 }
