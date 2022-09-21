@@ -24,6 +24,6 @@ output "pet_keeper" {
   value = random_pet.pet[0].keepers.name
 }
 
-variable {
+variable ok {
   default = "nice"
 }
