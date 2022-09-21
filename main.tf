@@ -1,12 +1,4 @@
-data {
-  most_recent = true
-
-  owners = ["self"]
-  tags = {
-    Name   = "app-server"
-    Tested = "true"
-  }
-}
+module {}
 
 resource "random_pet" "pet" {
   count = 10
