@@ -1,4 +1,4 @@
-resource "pet" {
+resource "random_pet" {
   count = 10
   keepers = {
     # Generate a new pet name each time
@@ -22,4 +22,8 @@ output "pets" {
 
 output "pet_keeper" {
   value = random_pet.pet[0].keepers.name
+}
+
+variable {
+  default = "nice"
 }
