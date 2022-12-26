@@ -1,5 +1,3 @@
-resource {}
-
 resource "random_pet" "pet" {
   count = 10
   keepers = {
